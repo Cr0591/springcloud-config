@@ -16,6 +16,6 @@ server:
 spring:
   profiles: test
   application:
-    name: springcloud-eureka-dev
+    name: springcloud-eureka-test
 server:
   port: 7676
