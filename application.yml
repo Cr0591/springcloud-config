@@ -1,5 +1,21 @@
+spring:
+  profiles:
+    active: dev
+    
+---
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-eureka-dev
 server:
   port: 7575
+  
+---
+
 spring:
+  profiles: test
   application:
-    name: springcloud-eureka-user
+    name: springcloud-eureka-dev
+server:
+  port: 7676
